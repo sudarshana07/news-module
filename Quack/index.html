@@ -1,0 +1,989 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>India</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light"><a class="navbar-brand" href="#"><img src="images/Logo.PNG " class="img-fluid"><span class="logo">QuakBox</span></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto random-flag">
+        <li><a class="flag1" href="#"><img src="images/gaboncoun.png" width="30px" height="20px"></a>
+          <p id="flag-text1">Gabon</p>
+          <!-- <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a> -->
+        </li>
+        <li><a class="flag2" href="#"><img src="images/rwflg.png" width="30px" height="20px"></a>
+          <p id="flag-text2">Rwanda</p>
+          <!-- <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a> -->
+        </li>
+        <li><a class="flag3" href="#"><img src="images/hun.jpg" width="30px" height="20px"></a>
+          <p id="flag-text3">Hungary</p>
+          <!-- <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a> -->
+        </li>
+        <li class="header-icon"><a href="#"><img src="images/video.png" width="20px" height="20px" data-toggle="tooltip" title-data-placement="bottom" alt="video" data-orignal-title="video"></a></li>
+        <li class="header-icon"><a href="#"><img src="images/live.png" width="20px" height="20px" data-toggle="tooltip" title-data-placement="bottom" alt="video" data-orignal-title="Live video"></a></li>
+        <li class="header-icon"><a href="#"><img src="images/add-friend.png" width="20px" height="20px" data-toggle="tooltip" title-data-placement="bottom" alt="video" data-orignal-title="Live video"></a></li>
+        <li class="header-icon"><a href="#"><img src="images/notification.png" width="20px" height="20px" data-toggle="tooltip" title-data-placement="bottom" alt="video" data-orignal-title="Live video"></a></li>
+        <li class="header-icon"><a href="#"><img src="images/messages.png" width="20px" height="20px" data-toggle="tooltip" title-data-placement="bottom" alt="video" data-orignal-title="Live video"></a></li>
+        <form class="form-inline my-2 my-lg-0">
+          <input style="height: 25px;width: 300px;" class="form-control" type="search" placeholder="Search" aria-label="Search">
+          <!-- <button class="btn btn-outline-success my-2 my-sm-0" type="submit"></button> -->
+        </form>
+        <li class="header-icons"><a href="#" style="color: white;"><i class="fa fa-cog" aria-hidden="true" data-toggle="tooltip" title-data-placement="bottom" data-orignal-title="Settings"></i></a></li>
+        <li class="header-icons"><a href="#" style="color: white"><i class="fa fa-globe" aria-hidden="true"></i></a></li>
+        <li class="header-icons"><a href="#"><img src="images/add-heart.png" width="18px" height="19px" data-toggle="tooltip" title-data-placement="bottom" alt="video" data-orignal-title="Live video"></a></li>
+        <li><a class="flag1" href="#"><img src="images/gaboncoun.png" width="30px" height="20px"></a>
+          <p id="flag-text1">Gabon</p>
+          <!-- <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a> -->
+        </li>
+        <li><a class="flag2" href="#"><img src="images/rwflg.png" width="30px" height="20px"></a>
+          <p id="flag-text2">Rwanda</p>
+          <!-- <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a> -->
+        </li>
+        <li><a class="flag3" href="#"><img src="images/hun.jpg" width="30px" height="20px"></a>
+          <p id="flag-text3">Hungary</p>
+          <!-- <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a> -->
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+<body style="background-color:rgb(240, 240, 240);">
+<div class="container-fluid pt-3">
+<div class="row">
+<div class="col-lg-3 col-sm-1">
+  <div id="divFirst">
+    <div id="barheader">Trending</div>
+    <div class="carousel slide carousel-fade" data-ride="carousel" style="max-width: inherit; height: 180px;">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-interval="2000"> <img src="images/news4.jpg" class="d-block w-100 h-100" alt="...">
+          <div class="carousel-caption">
+            <h6>Crisis: Second slide label</h6>
+          </div>
+        </div>
+        <div class="carousel-item" data-interval="2000"> <img src="images/add2.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption">
+            <h6>Crisis: Second slide label</h6>
+            <!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>--> 
+          </div>
+        </div>
+        <div class="carousel-item" data-interval="2000"> <img src="images/top1.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption">
+            <h6>Crisis: Second slide label</h6>
+            <!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>--> 
+          </div>
+        </div>
+        <div class="carousel-item" data-interval="2000"> <img src="images/news3.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption">
+            <p><h6>Crisis: Second slide label</h6></p>
+            <!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>--> 
+          </div>
+        </div>
+      </div>
+    </div>
+   </div>
+  <div id="divSecond">
+    <!-- <div class="panel-head">  Don't Miss</div> -->
+    <div id="barheader">World News</div>
+    <div class="scroll pt-2">
+    <!--<div class="pannel-body">
+      <div class="container pt-3">--> 
+        <!-- <div class="row">
+        
+       <div class="itemMediaContainer" data-baseurl="https://m.media-amazon.com/images/I/61hK4+26irL.jpg" style="display: block;"><img src="https://m.media-amazon.com/images/I/61hK4+26irL._AC_SY380_.jpg"></div>
+       <img src="https://m.media-amazon.com/images/I/61hK4+26irL._AC_SY380_.jpg">
+        
+		    		<div class="col">
+		    	      <img style="border-radius: 3px;" width="120" height="120" src="images/news1.jpg">
+		    	      <p style="font-size: 13px;color: grey;">Rains lash Gujarat, warning issued for weekend</p>
+		    	    </div>
+		    	       <div class="col">
+		    	      <img style="border-radius: 3px;" width="120" height="120" src="images/news2.jpeg">
+		    	      <p style="font-size: 13px;color: grey;">Naga crisis: Modiji, where’s the ‘creative solution’?</p>
+		    	    </div>
+		    	  </div> -->
+        
+        <!--<div id="barheader">World News</div>-->
+        <!-- <div class="row pt-2">
+		    		<div class="col">
+		    	      <img style="border-radius: 3px;" width="120" height="120" src="images/news3.jpg">
+		    	      <p style="font-size: 13px;color: grey;">The new Apple Card is here – at least for a select few.</p>
+		    	    </div>
+		    	       <div class="col">
+		    	      <img style="border-radius: 3px;" width="120" height="120" src="images/news4.jpg">
+		    	      <p style="font-size: 13px;color: grey;">Listen to the Talking Tech podcast</p>
+		    	    </div>
+		    	  </div> -->
+        <!--<hr>-->
+        <div class="clearfix text-left side-bar-divs sidebar-div"> <img src="images/topn1.jpg" class="img1"><h6 class="overflow-hidden">Trump attacks 'racist' Hollywood ahead of human-hunting film</h6>
+        <div class="span"><span class="mr-4"><i class="fa fa-clock-o" aria-hidden="true"></i> 20 min</span> <span> <span class="icon-signal icon"><img src="images/indflg.svg" width="15px" height="15px" alt="india"></span>   IND</span></div>
+        </div>
+        <hr>
+        <div class="clearfix text-left side-bar-divs sidebar-div"> <img src="images/topn2.jpg" alt="Headshot photo" width="100px" height="80px" class="img1"><h6 class="overflow-hidden">Amsterdam's Schiphol airport says fuelling problem resolved</h6>
+        <div class="span"><span class="mr-4"><i class="fa fa-clock-o" aria-hidden="true"></i> 20 min</span> <span> <span class="icon-signal icon"><img src="images/australia.png" width="15px" height="12px" alt="india"></span>  AUS</span></div>
+        </div>
+        <hr>
+        <div class="clearfix text-left side-bar-divs sidebar-div"> <img src="images/topn3.jpg" alt="Headshot photo" width="100px" height="80px" class="img1"><h6 class="overflow-hidden">El Paso shooting suspect told police he targeted Mexicans</h6>
+        <div class="span"><span class="mr-4"><i class="fa fa-clock-o" aria-hidden="true"></i> 20 min</span> <span> <span class="icon-signal icon"><img src="images/america.png" width="15px" height="12px" alt="india"></span>  AME</span></div>
+        </div>
+        <hr>
+        <div class="clearfix text-left side-bar-divs sidebar-div"> <img src="images/topn4.jpg" alt="Headshot photo" width="100px" height="80px" class="img1"><h6 class="overflow-hidden" style="overflow-x: hidden;">New blasts hit Siberia ammunition dump during</h6>
+        <div class="span"><span class="mr-4"><i class="fa fa-clock-o" aria-hidden="true"></i> 20 min</span> <span> <span class="icon-signal icon"><img src="images/indflg.svg" width="15px" height="15px" alt="india"></span> IND</span></div>
+        </div>
+        <hr> 
+        <div class="clearfix text-left side-bar-divs sidebar-div"> <img src="images/topn1.jpg" alt="Headshot photo" width="100px" height="80px" class="img1"><h6 class="overflow-hidden">Trump attacks 'racist' Hollywood ahead of human-hunting film</h6>
+        <div class="span"><span class="mr-4"><i class="fa fa-clock-o" aria-hidden="true"></i> 20 min</span> <span> <span class="icon-signal icon"><img src="images/indflg.svg" width="15px" height="15px" alt="india"></span> IND</span></div>
+        </div>
+        <hr>
+        <div class="clearfix text-left side-bar-divs sidebar-div"> <img src="images/topn2.jpg" alt="Headshot photo" width="100px" height="80px" class="img1"><h6 class="overflow-hidden">Amsterdam's Schiphol airport says fuelling problem resolved</h6>
+        <div class="span"><span class="mr-4"><i class="fa fa-clock-o" aria-hidden="true"></i> 20 min</span> <span> <span class="icon-signal icon"><img src="images/indflg.svg" width="15px" height="15px" alt="india"></span> IND</span></div>
+        </div>
+        <hr>
+        <div class="clearfix text-left side-bar-divs sidebar-div"> <img src="images/topn3.jpg" alt="Headshot photo" width="100px" height="80px" class="img1"><h6 class="overflow-hidden">El Paso shooting suspect told police he targeted Mexicans</h6>
+        <div class="span"><span class="mr-4"><i class="fa fa-clock-o" aria-hidden="true"></i> 20 min</span> <span> <span class="icon-signal icon"><img src="images/indflg.svg" width="15px" height="15px" alt="india"></span> IND</span></div>
+        </div>
+        <hr>
+        <div class="clearfix text-left side-bar-divs sidebar-div"> <img src="images/topn1.jpg" alt="Headshot photo" width="100px" height="80px" class="img1"><h6 class="overflow-hidden">Trump attacks 'racist' Hollywood ahead of human-hunting film</h6>
+        <div class="span"><span class="mr-4"><i class="fa fa-clock-o" aria-hidden="true"></i> 20 min</span> <span> <span class="icon-signal icon"><img src="images/indflg.svg" width="15px" height="15px" alt="india"></span> IND</span></div>
+        </div>
+        <hr>
+        <div class="clearfix text-left side-bar-divs sidebar-div"> <img src="images/topn2.jpg" alt="Headshot photo" width="100px" height="80px" class="img1"><h6 class="overflow-hidden">Amsterdam's Schiphol airport says fuelling problem resolved</h6>
+        <div class="span"><span class="mr-4"><i class="fa fa-clock-o" aria-hidden="true"></i> 20 min</span> <span> <span class="icon-signal icon"><img src="images/indflg.svg" width="15px" height="15px" alt="india"></span> IND</span></div>
+        </div>
+        <hr>
+      <!--</div>
+    </div>-->
+  </div>
+  </div>
+</div>
+<div class="col-lg-7 col-sm-4">
+ <div class="pannel panel-middle">
+    <div class="pannel-body">
+      <div class="container">
+        <div class="pt-4">
+          <div class="row">
+            <div class="dropbox round-tab hov"> <i class="fa fa-globe" aria-hidden="true"></i> </div>
+            <div class="dropbox1 round-tab1 hov"> <i class="fa fa-futbol-o" aria-hidden="true"></i> </div>
+            <div class="dropbox2 round-tab2 hov"> <i class="fa fa-briefcase" aria-hidden="true"></i> </div>
+            <div class="dropbox3 round-tab3 hov"> <i class="fa fa-heart" aria-hidden="true"></i> </div>
+            <div class="dropbox4 round-tab4 hov"> <i class="fa fa-money" aria-hidden="true"></i> </div>
+            <div class="dropbox5 round-tab5 hov"> <i class="fa fa-flask" aria-hidden="true"></i> </div>
+            <div class="dropbox6 round-tab6 hov"> <i class="fa fa-line-chart" aria-hidden="true"></i> </div>
+            <div class="dropbox7 round-tab7 hov"> <i class="fa fa-graduation-cap" aria-hidden="true"></i> </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div >
+        	 	<ul >
+        	 	<li > 
+        	 		<span class="round-tab one">
+        	 			<i class="fa fa-futbol-o"></i>
+        	 		</span>
+        	 	</li>
+        	 	</ul>
+        	 	</div> --> 
+      
+    </div>
+  </div>
+  <div class="panel panel-secondary" style="border: 0; height: auto; max-height: 100%;">
+    <div class="pannel-body">
+      <iframe width="760" height="400" src="https://www.youtube.com/embed/N_bjCA9UcXk"> </iframe>
+    </div>
+  </div>
+  <!--<div class="pannel panel-middle">
+    <div class="pannel-body">
+      <div class="container">
+        <div class="pt-4">
+          <div class="row">
+            <div class="dropbox round-tab"> <i class="fa fa-globe" aria-hidden="true"></i> </div>
+            <div class="dropbox1 round-tab1"> <i class="fa fa-futbol-o"aria-hidden="true"></i> </div>
+            <div class="dropbox2 round-tab2"> <i class="fa fa-briefcase" aria-hidden="true"></i> </div>
+            <div class="dropbox3 round-tab3"> <i class="fa fa-heart" aria-hidden="true"></i> </div>
+            <div class="dropbox4 round-tab4"> <i class="fa fa-money" aria-hidden="true"></i> </div>
+            <div class="dropbox5 round-tab5"> <i class="fa fa-flask" aria-hidden="true"></i> </div>
+            <div class="dropbox6 round-tab6"> <i class="fa fa-line-chart" aria-hidden="true"></i> </div>
+            <div class="dropbox7 round-tab7"> <i class="fa fa-graduation-cap" aria-hidden="true"></i> </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div >
+        	 	<ul >
+        	 	<li > 
+        	 		<span class="round-tab one">
+        	 			<i class="fa fa-futbol-o"></i>
+        	 		</span>
+        	 	</li>
+        	 	</ul>
+        	 	</div>-> 
+      
+    </div>
+  </div>-->
+  <section style="background-color: #212f3f; color: white">
+   <div class="featured-vids"> 
+   <h2>Featured Videos</h2>
+   </div>
+   <hr class="hr-featured">
+    <div class="container-fluid" style="margin-top: 15px;">
+      <!--<h5 style="font-size: 30px; font-style: normal;">Featured Videos</h5>-->
+      <div class="row">
+        <div class="col">
+          <iframe class="frame-vid1" src="https://www.youtube.com/embed/joyeRSK_AL0"></iframe>
+			<p style="color: white;">Vanishing Flyover, Rooftops In Water At Maharashtra's Flooded Kolhapur</p>
+        </div>
+        <div class="col">
+          <iframe class="frame-vids" src="https://www.youtube.com/embed/063CZL4L9No"></iframe>
+          <p style="margin-left: 45px;color: white;">Activists gather at Hong Kong airport for 3-day long protest</p>
+        </div>
+        <div class="col">
+          <iframe class="frame-vids" src="https://www.youtube.com/embed/Ag0krpMP4Qk"></iframe>
+          <p style="margin-left: 45px;color: white;">Hundreds arrested in largest US immigration raids in a decade</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section style="background-color: #212F3F">
+    <div class="container-fluid">
+      <!-- <h5 style="font-size: 30px; font-style: normal;font-weight: normal;color: grey;">Featured Videos</h5> -->
+      <div class="row">
+        <div class="col">
+          <iframe class="frame-vid1" src="https://www.youtube.com/embed/pekk1vIMSkA"></iframe>
+          <p style="color: white;">How climate crisis threatens world’s food supply and land</p>
+        </div>
+        <div class="col">
+          <iframe class="frame-vids" src="https://www.youtube.com/embed/Mudu6AalOVg"></iframe>
+          <p style="margin-left: 45px;color: white;">Trump’s China trade war rattles the world</p>
+        </div>
+        <div class="col">
+          <iframe class="frame-vids" src="https://www.youtube.com/embed/2wWp-OVZ7iU"></iframe>
+          <p style="margin-left: 45px;color: white;">China Snubs Imran Khan, Refuses To Wade Into J&K Issue As Pak Comes Begging</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+<div class="col-lg-2">
+  <div class="panel panel-third nopadding" style="border: 0; height: auto; max-height: 100%;">
+    <div class="panel-heading1" style="height: 20px;padding: 1px;"><h6>INDIA</h6></div>
+    <div class="panel-body nopadding">
+      <center>
+        <img src="images/india.jpg" style="zoom:2; display: block; margin: auto; height: auto; max-height: 100%; width:auto; max-width: 100%">
+      </center>
+    </div>
+  </div>
+  <div class="sidenav sidebar-margin">
+          <div class="text-block text-center">
+            <h6>COUNTRY NEWS</h6>
+          </div>
+          <div class="bar-hr1"> <hr class="hr-featured-sb"></div>
+          <div class="bar-img"> <img src="images/add1.jpg" alt="barimg" width="130px" height="90px">
+              <div class="ribbon-post ribbon-2 text-center"><span class="text-white font-weight-bold">Post</span></div>
+              <p align="center" style="color: #212F3F">Some quick example text to build on the card title</p>
+            </div>
+            <!--<div class="bar-hr1"> <hr class="hr-featured-sb"></div>-->
+            <div class="bar-img-second"> <img src="images/news2.jpeg" alt="barimg" width="130px" height="90px">
+              <div class="ribbon-post ribbon-2 text-center"><span class="text-white font-weight-bold">Post</span></div>
+              <p align="center" style="color: #212F3F">Some quick example text to build on the card title</p>
+            </div>
+            <div class="bar-img-third"> <img src="images/add1.jpg" alt="barimg" width="130px" height="90px">
+              <div class="ribbon-post ribbon-2 text-center"><span class="text-white font-weight-bold">Post</span></div>
+              <p align="center" style="color: #212F3F">Some quick example text to build on the card title</p>
+            </div>
+            <div class="bar-img-fourth"> <img src="images/add1.jpg" alt="barimg" width="130px" height="90px">
+              <div class="ribbon-post ribbon-2 text-center"><span class="text-white font-weight-bold">Post</span></div>
+              <p align="center" style="color: #212F3F">Some quick example text to build on the card title</p>
+            </div>
+  </div>
+</div>
+<div class="container-fluid pt-1">
+  <ul class="nav nav-justified navbg">
+    <li class="nav-item "> <a class="nav-link l2" data-toggle="tab" href="#Politics">Politics</a> </li>
+    <li class="nav-item "> <a class="nav-link l2" data-toggle="tab" href="#Technology">Technology</a> </li>
+    <li class="nav-item "> <a class="nav-link l2" data-toggle="tab" href="#Fashion">Fashion</a> </li>
+    <li class="nav-item "> <a class="nav-link l2" data-toggle="tab" href="#International">International</a> </li>
+    <li class="nav-item "> <a class="nav-link l2" data-toggle="tab" href="#Admin-pick">Admin Pick</a> </li>
+    <li class="nav-item "> <a class="nav-link l2" data-toggle="tab" href="#Top-posts">Top Post</a> </li>
+  </ul>
+  
+  <!-- Tab panes -->
+  <div class="tab-content padding">
+    <div id="Politics" class="container-fluid tab-pane active"><br>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="card-deck">
+            <div class="card"> <img src="images/headphones.jpg" alt="whh" height="220px">
+              <div class="ribbon-post ribbon-1 text-center"><span class="text-white font-weight-bold">Post</span></div>
+              <p class="text-padding">Full Responsive amazing design pixel perfect.</p>
+              <small class="text-muted text-padding ago-text">3 mins ago</small>
+              <div class="btn-group btn-group-md bg-white">
+                <button class="btn" type="button"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> </button>
+                <button class="btn" type="button"><i class="fa fa-thumbs-o-down" aria-hidden="true"></i></button>
+                <button class="btn" type="button"><i class="fa fa-commenting-o" aria-hidden="true"></i></button>
+                <button class="btn" type="button"><i class="fa fa-share-alt" aria-hidden="true"></i></button>
+                <button class="btn" type="button"><i class="fa fa-flag-o" aria-hidden="true"></i></button>
+              </div>
+            </div>
+            <div class="card"> <img src="images/crowd.jfif" alt="whh" height="220px">
+              <div class="ribbon-post ribbon-1 text-center"><span class="text-white font-weight-bold">Post</span></div>
+              <p class="text-padding">Full Responsive amazing design pixel perfect.</p>
+              <small class="text-muted text-padding ago-text">3 mins ago</small>
+              <div class="btn-group btn-group-md bg-white">
+                <button class="btn" type="button"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> </button>
+                <button class="btn" type="button"><i class="fa fa-thumbs-o-down" aria-hidden="true"></i></button>
+                <button class="btn" type="button"><i class="fa fa-commenting-o" aria-hidden="true"></i></button>
+                <button class="btn" type="button"><i class="fa fa-share-alt" aria-hidden="true"></i></button>
+                <button class="btn" type="button"><i class="fa fa-flag-o" aria-hidden="true"></i></button>
+              </div>
+            </div>
+            <div class="card"> <img src="images/lp.jpg" alt="whh" height="220px">
+              <div class="ribbon-post ribbon-1 text-center"><span class="text-white font-weight-bold">Post</span></div>
+              <p class="text-padding">Full Responsive amazing design pixel perfect.</p>
+              <small class="text-muted text-padding ago-text">3 mins ago</small>
+              <div class="btn-group btn-group-md bg-white">
+                <button class="btn" type="button"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> </button>
+                <button class="btn" type="button"><i class="fa fa-thumbs-o-down" aria-hidden="true"></i></button>
+                <button class="btn" type="button"><i class="fa fa-commenting-o" aria-hidden="true"></i></button>
+                <button class="btn" type="button"><i class="fa fa-share-alt" aria-hidden="true"></i></button>
+                <button class="btn" type="button"><i class="fa fa-flag-o" aria-hidden="true"></i></button>
+              </div>
+            </div>
+            <div class="card"> <img src="images/earth.jfif" alt="whh" height="220px">
+              <div class="ribbon-post ribbon-1 text-center"><span class="text-white font-weight-bold">Post</span></div>
+              <p class="text-padding">Full Responsive amazing design pixel perfect.</p>
+              <small class="text-muted text-padding ago-text">3 mins ago</small>
+              <div class="btn-group btn-group-md bg-white">
+                <button class="btn" type="button"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> </button>
+                <button class="btn" type="button"><i class="fa fa-thumbs-o-down" aria-hidden="true"></i></button>
+                <button class="btn" type="button"><i class="fa fa-commenting-o" aria-hidden="true"></i></button>
+                <button class="btn" type="button"><i class="fa fa-share-alt" aria-hidden="true"></i></button>
+                <button class="btn" type="button"><i class="fa fa-flag-o" aria-hidden="true"></i></button>
+              </div>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="container-fluid card-padding">
+            <div class="row">
+              <div class="card-deck">
+                <div class="card"> <img src="images/headphones.jpg" alt="whh" height="220px">
+                  <div class="ribbon-post ribbon-1 text-center"><span class="text-white font-weight-bold">Post</span></div>
+                  <p class="text-padding">Full Responsive amazing design pixel perfect.</p>
+                  <small class="text-muted text-padding ago-text">3 mins ago</small>
+                  <div class="btn-group btn-group-md bg-white">
+                    <button class="btn" type="button"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> </button>
+                    <button class="btn" type="button"><i class="fa fa-thumbs-o-down" aria-hidden="true"></i></button>
+                    <button class="btn" type="button"><i class="fa fa-commenting-o" aria-hidden="true"></i></button>
+                    <button class="btn" type="button"><i class="fa fa-share-alt" aria-hidden="true"></i></button>
+                    <button class="btn" type="button"><i class="fa fa-flag-o" aria-hidden="true"></i></button>
+                  </div>
+                </div>
+                <div class="card"> <img src="images/crowd.jfif" alt="whh" height="220px">
+                  <div class="ribbon-post ribbon-1 text-center"><span class="text-white font-weight-bold">Post</span></div>
+                  <p class="text-padding">Full Responsive amazing design pixel perfect.</p>
+                  <small class="text-muted text-padding ago-text">3 mins ago</small>
+                  <div class="btn-group btn-group-md bg-white">
+                    <button class="btn" type="button"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> </button>
+                    <button class="btn" type="button"><i class="fa fa-thumbs-o-down" aria-hidden="true"></i></button>
+                    <button class="btn" type="button"><i class="fa fa-commenting-o" aria-hidden="true"></i></button>
+                    <button class="btn" type="button"><i class="fa fa-share-alt" aria-hidden="true"></i></button>
+                    <button class="btn" type="button"><i class="fa fa-flag-o" aria-hidden="true"></i></button>
+                  </div>
+                </div>
+                <div class="card"> <img src="images/lp.jpg" alt="whh" height="220px">
+                  <div class="ribbon-post ribbon-1 text-center"><span class="text-white font-weight-bold">Post</span></div>
+                  <p class="text-padding">Full Responsive amazing design pixel perfect.</p>
+                  <small class="text-muted text-padding ago-text">3 mins ago</small>
+                  <div class="btn-group btn-group-md bg-white">
+                    <button class="btn" type="button"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> </button>
+                    <button class="btn" type="button"><i class="fa fa-thumbs-o-down" aria-hidden="true"></i></button>
+                    <button class="btn" type="button"><i class="fa fa-commenting-o" aria-hidden="true"></i></button>
+                    <button class="btn" type="button"><i class="fa fa-share-alt" aria-hidden="true"></i></button>
+                    <button class="btn" type="button"><i class="fa fa-flag-o" aria-hidden="true"></i></button>
+                  </div>
+                </div>
+                <div class="card"> <img src="images/earth.jfif" alt="whh" height="220px">
+                  <div class="ribbon-post ribbon-1 text-center"><span class="text-white font-weight-bold">Post</span></div>
+                  <p class="text-padding">Full Responsive amazing design pixel perfect.</p>
+                  <small class="text-muted text-padding ago-text">3 mins ago</small>
+                  <div class="btn-group btn-group-md bg-white">
+                    <button class="btn" type="button"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> </button>
+                    <button class="btn" type="button"><i class="fa fa-thumbs-o-down" aria-hidden="true"></i></button>
+                    <button class="btn" type="button"><i class="fa fa-commenting-o" aria-hidden="true"></i></button>
+                    <button class="btn" type="button"><i class="fa fa-share-alt" aria-hidden="true"></i></button>
+                    <button class="btn" type="button"><i class="fa fa-flag-o" aria-hidden="true"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="Technology" class="container-fluid tab-pane fade"><br>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="card-deck">
+            <div class="card"> <img src="images/crowd.jfif" alt="whh" height="220px">
+              <div class="ribbon-post ribbon-1 text-center"><span class="text-white font-weight-bold">Post</span></div>
+              <p class="text-padding">Full Responsive amazing design pixel perfect.</p>
+              <small class="text-muted text-padding ago-text">3 mins ago</small>
+              <div class="btn-group btn-group-md bg-white">
+                <button class="btn" type="button"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> </button>
+                <button class="btn" type="button"><i class="fa fa-thumbs-o-down" aria-hidden="true"></i></button>
+                <button class="btn" type="button"><i class="fa fa-commenting-o" aria-hidden="true"></i></button>
+                <button class="btn" type="button"><i class="fa fa-share-alt" aria-hidden="true"></i></button>
+                <button class="btn" type="button"><i class="fa fa-flag-o" aria-hidden="true"></i></button>
+              </div>
+            </div>
+            <div class="card"> <img src="images/headphones.jpg" alt="whh" height="220px">
+              <div class="ribbon-post ribbon-1 text-center"><span class="text-white font-weight-bold">Post</span></div>
+              <p class="text-padding">Full Responsive amazing design pixel perfect.</p>
+              <small class="text-muted text-padding ago-text">3 mins ago</small>
+              <div class="btn-group btn-group-md bg-white">
+                <button class="btn" type="button"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> </button>
+                <button class="btn" type="button"><i class="fa fa-thumbs-o-down" aria-hidden="true"></i></button>
+                <button class="btn" type="button"><i class="fa fa-commenting-o" aria-hidden="true"></i></button>
+                <button class="btn" type="button"><i class="fa fa-share-alt" aria-hidden="true"></i></button>
+                <button class="btn" type="button"><i class="fa fa-flag-o" aria-hidden="true"></i></button>
+              </div>
+            </div>
+            <div class="card"> <img src="images/lp.jpg" alt="whh" height="220px">
+              <div class="ribbon-post ribbon-1 text-center"><span class="text-white font-weight-bold">Post</span></div>
+              <p class="text-padding">Full Responsive amazing design pixel perfect.</p>
+              <small class="text-muted text-padding ago-text">3 mins ago</small>
+              <div class="btn-group btn-group-md bg-white">
+                <button class="btn" type="button"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> </button>
+                <button class="btn" type="button"><i class="fa fa-thumbs-o-down" aria-hidden="true"></i></button>
+                <button class="btn" type="button"><i class="fa fa-commenting-o" aria-hidden="true"></i></button>
+                <button class="btn" type="button"><i class="fa fa-share-alt" aria-hidden="true"></i></button>
+                <button class="btn" type="button"><i class="fa fa-flag-o" aria-hidden="true"></i></button>
+              </div>
+            </div>
+            <div class="card"> <img src="images/earth.jfif" alt="whh" height="220px">
+              <div class="ribbon-post ribbon-1 text-center"><span class="text-white font-weight-bold">Post</span></div>
+              <p class="text-padding">Full Responsive amazing design pixel perfect.</p>
+              <small class="text-muted text-padding ago-text">3 mins ago</small>
+              <div class="btn-group btn-group-md bg-white">
+                <button class="btn" type="button"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> </button>
+                <button class="btn" type="button"><i class="fa fa-thumbs-o-down" aria-hidden="true"></i></button>
+                <button class="btn" type="button"><i class="fa fa-commenting-o" aria-hidden="true"></i></button>
+                <button class="btn" type="button"><i class="fa fa-share-alt" aria-hidden="true"></i></button>
+                <button class="btn" type="button"><i class="fa fa-flag-o" aria-hidden="true"></i></button>
+              </div>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="container-fluid card-padding">
+            <div class="row">
+              <div class="card-deck">
+                <div class="card"> <img src="images/crowd.jfif" alt="whh" height="220px">
+                  <div class="ribbon-post ribbon-1 text-center"><span class="text-white font-weight-bold">Post</span></div>
+                  <p class="text-padding">Full Responsive amazing design pixel perfect.</p>
+                  <small class="text-muted text-padding ago-text">3 mins ago</small>
+                  <div class="btn-group btn-group-md bg-white">
+                    <button class="btn" type="button"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> </button>
+                    <button class="btn" type="button"><i class="fa fa-thumbs-o-down" aria-hidden="true"></i></button>
+                    <button class="btn" type="button"><i class="fa fa-commenting-o" aria-hidden="true"></i></button>
+                    <button class="btn" type="button"><i class="fa fa-share-alt" aria-hidden="true"></i></button>
+                    <button class="btn" type="button"><i class="fa fa-flag-o" aria-hidden="true"></i></button>
+                  </div>
+                </div>
+                <div class="card"> <img src="images/gb.jpg" alt="whh" height="220px">
+                  <div class="ribbon-post ribbon-1 text-center"><span class="text-white font-weight-bold">Post</span></div>
+                  <p class="text-padding">Full Responsive amazing design pixel perfect.</p>
+                  <small class="text-muted text-padding ago-text">3 mins ago</small>
+                  <div class="btn-group btn-group-md bg-white">
+                    <button class="btn" type="button"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> </button>
+                    <button class="btn" type="button"><i class="fa fa-thumbs-o-down" aria-hidden="true"></i></button>
+                    <button class="btn" type="button"><i class="fa fa-commenting-o" aria-hidden="true"></i></button>
+                    <button class="btn" type="button"><i class="fa fa-share-alt" aria-hidden="true"></i></button>
+                    <button class="btn" type="button"><i class="fa fa-flag-o" aria-hidden="true"></i></button>
+                  </div>
+                </div>
+                <div class="card"> <img src="images/headphones.jpg" alt="whh" height="220px">
+                  <div class="ribbon-post ribbon-1 text-center"><span class="text-white font-weight-bold">Post</span></div>
+                  <p class="text-padding">Full Responsive amazing design pixel perfect.</p>
+                  <small class="text-muted text-padding ago-text">3 mins ago</small>
+                  <div class="btn-group btn-group-md bg-white">
+                    <button class="btn" type="button"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> </button>
+                    <button class="btn" type="button"><i class="fa fa-thumbs-o-down" aria-hidden="true"></i></button>
+                    <button class="btn" type="button"><i class="fa fa-commenting-o" aria-hidden="true"></i></button>
+                    <button class="btn" type="button"><i class="fa fa-share-alt" aria-hidden="true"></i></button>
+                    <button class="btn" type="button"><i class="fa fa-flag-o" aria-hidden="true"></i></button>
+                  </div>
+                </div>
+                <div class="card"> <img src="images/lp.jpg" alt="whh" height="220px">
+                  <div class="ribbon-post ribbon-1 text-center"><span class="text-white font-weight-bold">Post</span></div>
+                  <p class="text-padding">Full Responsive amazing design pixel perfect.</p>
+                  <small class="text-muted text-padding ago-text">3 mins ago</small>
+                  <div class="btn-group btn-group-md bg-white">
+                    <button class="btn" type="button"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> </button>
+                    <button class="btn" type="button"><i class="fa fa-thumbs-o-down" aria-hidden="true"></i></button>
+                    <button class="btn" type="button"><i class="fa fa-commenting-o" aria-hidden="true"></i></button>
+                    <button class="btn" type="button"><i class="fa fa-share-alt" aria-hidden="true"></i></button>
+                    <button class="btn" type="button"><i class="fa fa-flag-o" aria-hidden="true"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="Fashion" class="container-fluid tab-pane fade"><br>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="card-deck">
+            <div class="card"> <img src="images/earth.jfif" alt="whh" height="220px">
+              <div class="ribbon-post ribbon-1 text-center"><span class="text-white font-weight-bold">Post</span></div>
+              <p class="text-padding">Full Responsive amazing design pixel perfect.</p>
+              <small class="text-muted text-padding ago-text">3 mins ago</small>
+              <div class="btn-group btn-group-md bg-white">
+                <button class="btn" type="button"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> </button>
+                <button class="btn" type="button"><i class="fa fa-thumbs-o-down" aria-hidden="true"></i></button>
+                <button class="btn" type="button"><i class="fa fa-commenting-o" aria-hidden="true"></i></button>
+                <button class="btn" type="button"><i class="fa fa-share-alt" aria-hidden="true"></i></button>
+                <button class="btn" type="button"><i class="fa fa-flag-o" aria-hidden="true"></i></button>
+              </div>
+            </div>
+            <div class="card"> <img src="images/headphones.jpg" alt="whh" height="220px">
+              <div class="ribbon-post ribbon-1 text-center"><span class="text-white font-weight-bold">Post</span></div>
+              <p class="text-padding">Full Responsive amazing design pixel perfect.</p>
+              <small class="text-muted text-padding ago-text">3 mins ago</small>
+              <div class="btn-group btn-group-md bg-white">
+                <button class="btn" type="button"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> </button>
+                <button class="btn" type="button"><i class="fa fa-thumbs-o-down" aria-hidden="true"></i></button>
+                <button class="btn" type="button"><i class="fa fa-commenting-o" aria-hidden="true"></i></button>
+                <button class="btn" type="button"><i class="fa fa-share-alt" aria-hidden="true"></i></button>
+                <button class="btn" type="button"><i class="fa fa-flag-o" aria-hidden="true"></i></button>
+              </div>
+            </div>
+            <div class="card"> <img src="images/lp.jpg" alt="whh" height="220px">
+              <div class="ribbon-post ribbon-1 text-center"><span class="text-white font-weight-bold">Post</span></div>
+              <p class="text-padding">Full Responsive amazing design pixel perfect.</p>
+              <small class="text-muted text-padding ago-text">3 mins ago</small>
+              <div class="btn-group btn-group-md bg-white">
+                <button class="btn" type="button"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> </button>
+                <button class="btn" type="button"><i class="fa fa-thumbs-o-down" aria-hidden="true"></i></button>
+                <button class="btn" type="button"><i class="fa fa-commenting-o" aria-hidden="true"></i></button>
+                <button class="btn" type="button"><i class="fa fa-share-alt" aria-hidden="true"></i></button>
+                <button class="btn" type="button"><i class="fa fa-flag-o" aria-hidden="true"></i></button>
+              </div>
+            </div>
+            <div class="card"> <img src="images/crowd.jfif" alt="whh" height="220px">
+              <div class="ribbon-post ribbon-1 text-center"><span class="text-white font-weight-bold">Post</span></div>
+              <p class="text-padding">Full Responsive amazing design pixel perfect.</p>
+              <small class="text-muted text-padding ago-text">3 mins ago</small>
+              <div class="btn-group btn-group-md bg-white">
+                <button class="btn" type="button"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> </button>
+                <button class="btn" type="button"><i class="fa fa-thumbs-o-down" aria-hidden="true"></i></button>
+                <button class="btn" type="button"><i class="fa fa-commenting-o" aria-hidden="true"></i></button>
+                <button class="btn" type="button"><i class="fa fa-share-alt" aria-hidden="true"></i></button>
+                <button class="btn" type="button"><i class="fa fa-flag-o" aria-hidden="true"></i></button>
+              </div>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="container-fluid card-padding">
+            <div class="row">
+              <div class="card-deck">
+                <div class="card"> <img src="images/lp.jpg" alt="whh" height="220px">
+                  <div class="ribbon-post ribbon-1 text-center"><span class="text-white font-weight-bold">Post</span></div>
+                  <p class="text-padding">Full Responsive amazing design pixel perfect.</p>
+                  <small class="text-muted text-padding ago-text">3 mins ago</small>
+                  <div class="btn-group btn-group-md bg-white">
+                    <button class="btn" type="button"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> </button>
+                    <button class="btn" type="button"><i class="fa fa-thumbs-o-down" aria-hidden="true"></i></button>
+                    <button class="btn" type="button"><i class="fa fa-commenting-o" aria-hidden="true"></i></button>
+                    <button class="btn" type="button"><i class="fa fa-share-alt" aria-hidden="true"></i></button>
+                    <button class="btn" type="button"><i class="fa fa-flag-o" aria-hidden="true"></i></button>
+                  </div>
+                </div>
+                <div class="card"> <img src="images/gb.jpg" alt="whh" height="220px">
+                  <div class="ribbon-post ribbon-1 text-center"><span class="text-white font-weight-bold">Post</span></div>
+                  <p class="text-padding">Full Responsive amazing design pixel perfect.</p>
+                  <small class="text-muted text-padding ago-text">3 mins ago</small>
+                  <div class="btn-group btn-group-md bg-white">
+                    <button class="btn" type="button"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> </button>
+                    <button class="btn" type="button"><i class="fa fa-thumbs-o-down" aria-hidden="true"></i></button>
+                    <button class="btn" type="button"><i class="fa fa-commenting-o" aria-hidden="true"></i></button>
+                    <button class="btn" type="button"><i class="fa fa-share-alt" aria-hidden="true"></i></button>
+                    <button class="btn" type="button"><i class="fa fa-flag-o" aria-hidden="true"></i></button>
+                  </div>
+                </div>
+                <div class="card"> <img src="images/crowd.jfif" alt="whh" height="220px">
+                  <div class="ribbon-post ribbon-1 text-center"><span class="text-white font-weight-bold">Post</span></div>
+                  <p class="text-padding">Full Responsive amazing design pixel perfect.</p>
+                  <small class="text-muted text-padding ago-text">3 mins ago</small>
+                  <div class="btn-group btn-group-md bg-white">
+                    <button class="btn" type="button"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> </button>
+                    <button class="btn" type="button"><i class="fa fa-thumbs-o-down" aria-hidden="true"></i></button>
+                    <button class="btn" type="button"><i class="fa fa-commenting-o" aria-hidden="true"></i></button>
+                    <button class="btn" type="button"><i class="fa fa-share-alt" aria-hidden="true"></i></button>
+                    <button class="btn" type="button"><i class="fa fa-flag-o" aria-hidden="true"></i></button>
+                  </div>
+                </div>
+                <div class="card"> <img src="images/headphones.jpg" alt="whh" height="220px">
+                  <div class="ribbon-post ribbon-1 text-center"><span class="text-white font-weight-bold">Post</span></div>
+                  <p class="text-padding">Full Responsive amazing design pixel perfect.</p>
+                  <small class="text-muted text-padding ago-text">3 mins ago</small>
+                  <div class="btn-group btn-group-md bg-white">
+                    <button class="btn" type="button"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> </button>
+                    <button class="btn" type="button"><i class="fa fa-thumbs-o-down" aria-hidden="true"></i></button>
+                    <button class="btn" type="button"><i class="fa fa-commenting-o" aria-hidden="true"></i></button>
+                    <button class="btn" type="button"><i class="fa fa-share-alt" aria-hidden="true"></i></button>
+                    <button class="btn" type="button"><i class="fa fa-flag-o" aria-hidden="true"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="International" class="container-fluid tab-pane fade"><br>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="card-deck">
+            <div class="card"> <img src="images/headphones.jpg" alt="whh" height="220px">
+              <div class="ribbon-post ribbon-1 text-center"><span class="text-white font-weight-bold">Post</span></div>
+              <p class="text-padding">Full Responsive amazing design pixel perfect.</p>
+              <small class="text-muted text-padding ago-text">3 mins ago</small>
+              <div class="btn-group btn-group-md bg-white">
+                <button class="btn" type="button"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> </button>
+                <button class="btn" type="button"><i class="fa fa-thumbs-o-down" aria-hidden="true"></i></button>
+                <button class="btn" type="button"><i class="fa fa-commenting-o" aria-hidden="true"></i></button>
+                <button class="btn" type="button"><i class="fa fa-share-alt" aria-hidden="true"></i></button>
+                <button class="btn" type="button"><i class="fa fa-flag-o" aria-hidden="true"></i></button>
+              </div>
+            </div>
+            <div class="card"> <img src="images/earth.jfif" alt="whh" height="220px">
+              <div class="ribbon-post ribbon-1 text-center"><span class="text-white font-weight-bold">Post</span></div>
+              <p class="text-padding">Full Responsive amazing design pixel perfect.</p>
+              <small class="text-muted text-padding ago-text">3 mins ago</small>
+              <div class="btn-group btn-group-md bg-white">
+                <button class="btn" type="button"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> </button>
+                <button class="btn" type="button"><i class="fa fa-thumbs-o-down" aria-hidden="true"></i></button>
+                <button class="btn" type="button"><i class="fa fa-commenting-o" aria-hidden="true"></i></button>
+                <button class="btn" type="button"><i class="fa fa-share-alt" aria-hidden="true"></i></button>
+                <button class="btn" type="button"><i class="fa fa-flag-o" aria-hidden="true"></i></button>
+              </div>
+            </div>
+            <div class="card"> <img src="images/headphones.jpg" alt="whh" height="220px">
+              <div class="ribbon-post ribbon-1 text-center"><span class="text-white font-weight-bold">Post</span></div>
+              <p class="text-padding">Full Responsive amazing design pixel perfect.</p>
+              <small class="text-muted text-padding ago-text">3 mins ago</small>
+              <div class="btn-group btn-group-md bg-white">
+                <button class="btn" type="button"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> </button>
+                <button class="btn" type="button"><i class="fa fa-thumbs-o-down" aria-hidden="true"></i></button>
+                <button class="btn" type="button"><i class="fa fa-commenting-o" aria-hidden="true"></i></button>
+                <button class="btn" type="button"><i class="fa fa-share-alt" aria-hidden="true"></i></button>
+                <button class="btn" type="button"><i class="fa fa-flag-o" aria-hidden="true"></i></button>
+              </div>
+            </div>
+            <div class="card"> <img src="images/crowd.jfif" alt="whh" height="220px">
+              <div class="ribbon-post ribbon-1 text-center"><span class="text-white font-weight-bold">Post</span></div>
+              <p class="text-padding">Full Responsive amazing design pixel perfect.</p>
+              <small class="text-muted text-padding ago-text">3 mins ago</small>
+              <div class="btn-group btn-group-md bg-white">
+                <button class="btn" type="button"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> </button>
+                <button class="btn" type="button"><i class="fa fa-thumbs-o-down" aria-hidden="true"></i></button>
+                <button class="btn" type="button"><i class="fa fa-commenting-o" aria-hidden="true"></i></button>
+                <button class="btn" type="button"><i class="fa fa-share-alt" aria-hidden="true"></i></button>
+                <button class="btn" type="button"><i class="fa fa-flag-o" aria-hidden="true"></i></button>
+              </div>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="container-fluid card-padding">
+            <div class="row">
+              <div class="card-deck">
+                <div class="card"> <img src="images/crowd.jfif" alt="whh" height="220px">
+                  <div class="ribbon-post ribbon-1 text-center"><span class="text-white font-weight-bold">Post</span></div>
+                  <p class="text-padding">Full Responsive amazing design pixel perfect.</p>
+                  <small class="text-muted text-padding ago-text">3 mins ago</small>
+                  <div class="btn-group btn-group-md bg-white">
+                    <button class="btn" type="button"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> </button>
+                    <button class="btn" type="button"><i class="fa fa-thumbs-o-down" aria-hidden="true"></i></button>
+                    <button class="btn" type="button"><i class="fa fa-commenting-o" aria-hidden="true"></i></button>
+                    <button class="btn" type="button"><i class="fa fa-share-alt" aria-hidden="true"></i></button>
+                    <button class="btn" type="button"><i class="fa fa-flag-o" aria-hidden="true"></i></button>
+                  </div>
+                </div>
+                <div class="card"> <img src="images/crowd.jfif" alt="whh" height="220px">
+                  <div class="ribbon-post ribbon-1 text-center"><span class="text-white font-weight-bold">Post</span></div>
+                  <p class="text-padding">Full Responsive amazing design pixel perfect.</p>
+                  <small class="text-muted text-padding ago-text">3 mins ago</small>
+                  <div class="btn-group btn-group-md bg-white">
+                    <button class="btn" type="button"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> </button>
+                    <button class="btn" type="button"><i class="fa fa-thumbs-o-down" aria-hidden="true"></i></button>
+                    <button class="btn" type="button"><i class="fa fa-commenting-o" aria-hidden="true"></i></button>
+                    <button class="btn" type="button"><i class="fa fa-share-alt" aria-hidden="true"></i></button>
+                    <button class="btn" type="button"><i class="fa fa-flag-o" aria-hidden="true"></i></button>
+                  </div>
+                </div>
+                <div class="card"> <img src="images/headphones.jpg" alt="whh"height="220px">
+                  <div class="ribbon-post ribbon-1 text-center"><span class="text-white font-weight-bold">Post</span></div>
+                  <p class="text-padding">Full Responsive amazing design pixel perfect.</p>
+                  <small class="text-muted text-padding ago-text">3 mins ago</small>
+                  <div class="btn-group btn-group-md bg-white">
+                    <button class="btn" type="button"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> </button>
+                    <button class="btn" type="button"><i class="fa fa-thumbs-o-down" aria-hidden="true"></i></button>
+                    <button class="btn" type="button"><i class="fa fa-commenting-o" aria-hidden="true"></i></button>
+                    <button class="btn" type="button"><i class="fa fa-share-alt" aria-hidden="true"></i></button>
+                    <button class="btn" type="button"><i class="fa fa-flag-o" aria-hidden="true"></i></button>
+                  </div>
+                </div>
+                <div class="card"> <img src="images/headphones.jpg" alt="whh" height="220px">
+                  <div class="ribbon-post ribbon-1 text-center"><span class="text-white font-weight-bold">Post</span></div>
+                  <p class="text-padding">Full Responsive amazing design pixel perfect.</p>
+                  <small class="text-muted text-padding ago-text">3 mins ago</small>
+                  <div class="btn-group btn-group-md bg-white">
+                    <button class="btn" type="button"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> </button>
+                    <button class="btn" type="button"><i class="fa fa-thumbs-o-down" aria-hidden="true"></i></button>
+                    <button class="btn" type="button"><i class="fa fa-commenting-o" aria-hidden="true"></i></button>
+                    <button class="btn" type="button"><i class="fa fa-share-alt" aria-hidden="true"></i></button>
+                    <button class="btn" type="button"><i class="fa fa-flag-o" aria-hidden="true"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="Admin-pick" class="container-fluid tab-pane fade"><br>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="card-deck">
+            <div class="card"> <img src="images/gb.jpg" alt="whh" height="220px">
+              <div class="ribbon-post ribbon-1 text-center"><span class="text-white font-weight-bold">Post</span></div>
+              <p class="text-padding">Full Responsive amazing design pixel perfect.</p>
+              <small class="text-muted text-padding ago-text">3 mins ago</small>
+              <div class="btn-group btn-group-md bg-white">
+                <button class="btn" type="button"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> </button>
+                <button class="btn" type="button"><i class="fa fa-thumbs-o-down" aria-hidden="true"></i></button>
+                <button class="btn" type="button"><i class="fa fa-commenting-o" aria-hidden="true"></i></button>
+                <button class="btn" type="button"><i class="fa fa-share-alt" aria-hidden="true"></i></button>
+                <button class="btn" type="button"><i class="fa fa-flag-o" aria-hidden="true"></i></button>
+              </div>
+            </div>
+            <div class="card"> <img src="images/gb.jpg" alt="whh" height="220px">
+              <div class="ribbon-post ribbon-1 text-center"><span class="text-white font-weight-bold">Post</span></div>
+              <p class="text-padding">Full Responsive amazing design pixel perfect.</p>
+              <small class="text-muted text-padding ago-text">3 mins ago</small>
+              <div class="btn-group btn-group-md bg-white">
+                <button class="btn" type="button"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> </button>
+                <button class="btn" type="button"><i class="fa fa-thumbs-o-down" aria-hidden="true"></i></button>
+                <button class="btn" type="button"><i class="fa fa-commenting-o" aria-hidden="true"></i></button>
+                <button class="btn" type="button"><i class="fa fa-share-alt" aria-hidden="true"></i></button>
+                <button class="btn" type="button"><i class="fa fa-flag-o" aria-hidden="true"></i></button>
+              </div>
+            </div>
+            <div class="card"> <img src="images/crowd.jfif" alt="whh" height="220px">
+              <div class="ribbon-post ribbon-1 text-center"><span class="text-white font-weight-bold">Post</span></div>
+              <p class="text-padding">Full Responsive amazing design pixel perfect.</p>
+              <small class="text-muted text-padding ago-text">3 mins ago</small>
+              <div class="btn-group btn-group-md bg-white">
+                <button class="btn" type="button"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> </button>
+                <button class="btn" type="button"><i class="fa fa-thumbs-o-down" aria-hidden="true"></i></button>
+                <button class="btn" type="button"><i class="fa fa-commenting-o" aria-hidden="true"></i></button>
+                <button class="btn" type="button"><i class="fa fa-share-alt" aria-hidden="true"></i></button>
+                <button class="btn" type="button"><i class="fa fa-flag-o" aria-hidden="true"></i></button>
+              </div>
+            </div>
+            <div class="card"> <img src="images/crowd.jfif" alt="whh" height="220px">
+              <div class="ribbon-post ribbon-1 text-center"><span class="text-white font-weight-bold">Post</span></div>
+              <p class="text-padding">Full Responsive amazing design pixel perfect.</p>
+              <small class="text-muted text-padding ago-text">3 mins ago</small>
+              <div class="btn-group btn-group-md bg-white">
+                <button class="btn" type="button"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> </button>
+                <button class="btn" type="button"><i class="fa fa-thumbs-o-down" aria-hidden="true"></i></button>
+                <button class="btn" type="button"><i class="fa fa-commenting-o" aria-hidden="true"></i></button>
+                <button class="btn" type="button"><i class="fa fa-share-alt" aria-hidden="true"></i></button>
+                <button class="btn" type="button"><i class="fa fa-flag-o" aria-hidden="true"></i></button>
+              </div>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="container-fluid card-padding">
+            <div class="row">
+              <div class="card-deck">
+                <div class="card"> <img src="images/earth.jfif" alt="whh" height="220px">
+                  <div class="ribbon-post ribbon-1 text-center"><span class="text-white font-weight-bold">Post</span></div>
+                  <p class="text-padding">Full Responsive amazing design pixel perfect.</p>
+                  <small class="text-muted text-padding ago-text">3 mins ago</small>
+                  <div class="btn-group btn-group-md bg-white">
+                    <button class="btn" type="button"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> </button>
+                    <button class="btn" type="button"><i class="fa fa-thumbs-o-down" aria-hidden="true"></i></button>
+                    <button class="btn" type="button"><i class="fa fa-commenting-o" aria-hidden="true"></i></button>
+                    <button class="btn" type="button"><i class="fa fa-share-alt" aria-hidden="true"></i></button>
+                    <button class="btn" type="button"><i class="fa fa-flag-o" aria-hidden="true"></i></button>
+                  </div>
+                </div>
+                <div class="card"> <img src="images/earth.jfif" alt="whh" height="220px">
+                  <div class="ribbon-post ribbon-1 text-center"><span class="text-white font-weight-bold">Post</span></div>
+                  <p class="text-padding">Full Responsive amazing design pixel perfect.</p>
+                  <small class="text-muted text-padding ago-text">3 mins ago</small>
+                  <div class="btn-group btn-group-md bg-white">
+                    <button class="btn" type="button"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> </button>
+                    <button class="btn" type="button"><i class="fa fa-thumbs-o-down" aria-hidden="true"></i></button>
+                    <button class="btn" type="button"><i class="fa fa-commenting-o" aria-hidden="true"></i></button>
+                    <button class="btn" type="button"><i class="fa fa-share-alt" aria-hidden="true"></i></button>
+                    <button class="btn" type="button"><i class="fa fa-flag-o" aria-hidden="true"></i></button>
+                  </div>
+                </div>
+                <div class="card"> <img src="images/lp.jpg" alt="whh" height="220px">
+                  <div class="ribbon-post ribbon-1 text-center"><span class="text-white font-weight-bold">Post</span></div>
+                  <p class="text-padding">Full Responsive amazing design pixel perfect.</p>
+                  <small class="text-muted text-padding ago-text">3 mins ago</small>
+                  <div class="btn-group btn-group-md bg-white">
+                    <button class="btn" type="button"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> </button>
+                    <button class="btn" type="button"><i class="fa fa-thumbs-o-down" aria-hidden="true"></i></button>
+                    <button class="btn" type="button"><i class="fa fa-commenting-o" aria-hidden="true"></i></button>
+                    <button class="btn" type="button"><i class="fa fa-share-alt" aria-hidden="true"></i></button>
+                    <button class="btn" type="button"><i class="fa fa-flag-o" aria-hidden="true"></i></button>
+                  </div>
+                </div>
+                <div class="card"> <img src="images/lp.jpg" alt="whh" height="220px">
+                  <div class="ribbon-post ribbon-1 text-center"><span class="text-white font-weight-bold">Post</span></div>
+                  <p class="text-padding">Full Responsive amazing design pixel perfect.</p>
+                  <small class="text-muted text-padding ago-text">3 mins ago</small>
+                  <div class="btn-group btn-group-md bg-white">
+                    <button class="btn" type="button"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> </button>
+                    <button class="btn" type="button"><i class="fa fa-thumbs-o-down" aria-hidden="true"></i></button>
+                    <button class="btn" type="button"><i class="fa fa-commenting-o" aria-hidden="true"></i></button>
+                    <button class="btn" type="button"><i class="fa fa-share-alt" aria-hidden="true"></i></button>
+                    <button class="btn" type="button"><i class="fa fa-flag-o" aria-hidden="true"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="Top-posts" class="container-fluid tab-pane fade"><br>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="card-deck">
+            <div class="card"> <img src="images/lp.jpg" alt="whh" height="220px">
+              <div class="ribbon-post ribbon-1 text-center"><span class="text-white font-weight-bold">Post</span></div>
+              <p class="text-padding">Full Responsive amazing design pixel perfect.</p>
+              <small class="text-muted text-padding ago-text">3 mins ago</small>
+              <div class="btn-group btn-group-md bg-white">
+                <button class="btn" type="button"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> </button>
+                <button class="btn" type="button"><i class="fa fa-thumbs-o-down" aria-hidden="true"></i></button>
+                <button class="btn" type="button"><i class="fa fa-commenting-o" aria-hidden="true"></i></button>
+                <button class="btn" type="button"><i class="fa fa-share-alt" aria-hidden="true"></i></button>
+                <button class="btn" type="button"><i class="fa fa-flag-o" aria-hidden="true"></i></button>
+              </div>
+            </div>
+            <div class="card"> <img src="images/bag.jfif" alt="whh" height="220px">
+              <div class="ribbon-post ribbon-1 text-center"><span class="text-white font-weight-bold">Post</span></div>
+              <p class="text-padding">Full Responsive amazing design pixel perfect.</p>
+              <small class="text-muted text-padding ago-text">3 mins ago</small>
+              <div class="btn-group btn-group-md bg-white">
+                <button class="btn" type="button"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> </button>
+                <button class="btn" type="button"><i class="fa fa-thumbs-o-down" aria-hidden="true"></i></button>
+                <button class="btn" type="button"><i class="fa fa-commenting-o" aria-hidden="true"></i></button>
+                <button class="btn" type="button"><i class="fa fa-share-alt" aria-hidden="true"></i></button>
+                <button class="btn" type="button"><i class="fa fa-flag-o" aria-hidden="true"></i></button>
+              </div>
+            </div>
+            <div class="card"> <img src="images/bag.jfif" alt="whh" height="220px">
+              <div class="ribbon-post ribbon-1 text-center"><span class="text-white font-weight-bold">Post</span></div>
+              <p class="text-padding">Full Responsive amazing design pixel perfect.</p>
+              <small class="text-muted text-padding ago-text">3 mins ago</small>
+              <div class="btn-group btn-group-md bg-white">
+                <button class="btn" type="button"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> </button>
+                <button class="btn" type="button"><i class="fa fa-thumbs-o-down" aria-hidden="true"></i></button>
+                <button class="btn" type="button"><i class="fa fa-commenting-o" aria-hidden="true"></i></button>
+                <button class="btn" type="button"><i class="fa fa-share-alt" aria-hidden="true"></i></button>
+                <button class="btn" type="button"><i class="fa fa-flag-o" aria-hidden="true"></i></button>
+              </div>
+            </div>
+            <div class="card"> <img src="images/gb.jpg" alt="whh" height="220px">
+              <div class="ribbon-post ribbon-1 text-center"><span class="text-white font-weight-bold">Post</span></div>
+              <p class="text-padding">Full Responsive amazing design pixel perfect.</p>
+              <small class="text-muted text-padding ago-text">3 mins ago</small>
+              <div class="btn-group btn-group-md bg-white">
+                <button class="btn" type="button"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> </button>
+                <button class="btn" type="button"><i class="fa fa-thumbs-o-down" aria-hidden="true"></i></button>
+                <button class="btn" type="button"><i class="fa fa-commenting-o" aria-hidden="true"></i></button>
+                <button class="btn" type="button"><i class="fa fa-share-alt" aria-hidden="true"></i></button>
+                <button class="btn" type="button"><i class="fa fa-flag-o" aria-hidden="true"></i></button>
+              </div>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="container-fluid card-padding">
+            <div class="row">
+              <div class="card-deck">
+                <div class="card"> <img src="images/earth.jfif" alt="whh" height="220px">
+                  <div class="ribbon-post ribbon-1 text-center"><span class="text-white font-weight-bold">Post</span></div>
+                  <p class="text-padding">Full Responsive amazing design pixel perfect.</p>
+                  <small class="text-muted text-padding ago-text">3 mins ago</small>
+                  <div class="btn-group btn-group-md bg-white">
+                    <button class="btn" type="button"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> </button>
+                    <button class="btn" type="button"><i class="fa fa-thumbs-o-down" aria-hidden="true"></i></button>
+                    <button class="btn" type="button"><i class="fa fa-commenting-o" aria-hidden="true"></i></button>
+                    <button class="btn" type="button"><i class="fa fa-share-alt" aria-hidden="true"></i></button>
+                    <button class="btn" type="button"><i class="fa fa-flag-o" aria-hidden="true"></i></button>
+                  </div>
+                </div>
+                <div class="card"> <img src="images/earth.jfif" alt="whh" height="220px">
+                  <div class="ribbon-post ribbon-1 text-center"><span class="text-white font-weight-bold">Post</span></div>
+                  <p class="text-padding">Full Responsive amazing design pixel perfect.</p>
+                  <small class="text-muted text-padding ago-text">3 mins ago</small>
+                  <div class="btn-group btn-group-md bg-white">
+                    <button class="btn" type="button"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> </button>
+                    <button class="btn" type="button"><i class="fa fa-thumbs-o-down" aria-hidden="true"></i></button>
+                    <button class="btn" type="button"><i class="fa fa-commenting-o" aria-hidden="true"></i></button>
+                    <button class="btn" type="button"><i class="fa fa-share-alt" aria-hidden="true"></i></button>
+                    <button class="btn" type="button"><i class="fa fa-flag-o" aria-hidden="true"></i></button>
+                  </div>
+                </div>
+                <div class="card"> <img src="images/headphones.jpg" alt="whh" height="220px">
+                  <div class="ribbon-post ribbon-1 text-center"><span class="text-white font-weight-bold">Post</span></div>
+                  <p class="text-padding">Full Responsive amazing design pixel perfect.</p>
+                  <small class="text-muted text-padding ago-text">3 mins ago</small>
+                  <div class="btn-group btn-group-md bg-white">
+                    <button class="btn" type="button"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> </button>
+                    <button class="btn" type="button"><i class="fa fa-thumbs-o-down" aria-hidden="true"></i></button>
+                    <button class="btn" type="button"><i class="fa fa-commenting-o" aria-hidden="true"></i></button>
+                    <button class="btn" type="button"><i class="fa fa-share-alt" aria-hidden="true"></i></button>
+                    <button class="btn" type="button"><i class="fa fa-flag-o" aria-hidden="true"></i></button>
+                  </div>
+                </div>
+                <div class="card"> <img src="images/headphones.jpg" alt="whh" height="220px">
+                  <div class="ribbon-post ribbon-1 text-center"><span class="text-white font-weight-bold">Post</span></div>
+                  <p class="text-padding">Full Responsive amazing design pixel perfect.</p>
+                  <small class="text-muted text-padding ago-text">3 mins ago</small>
+                  <div class="btn-group btn-group-md bg-white">
+                    <button class="btn" type="button"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> </button>
+                    <button class="btn" type="button"><i class="fa fa-thumbs-o-down" aria-hidden="true"></i></button>
+                    <button class="btn" type="button"><i class="fa fa-commenting-o" aria-hidden="true"></i></button>
+                    <button class="btn" type="button"><i class="fa fa-share-alt" aria-hidden="true"></i></button>
+                    <button class="btn" type="button"><i class="fa fa-flag-o" aria-hidden="true"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</body>
+</html>
